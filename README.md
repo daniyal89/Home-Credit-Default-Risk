@@ -4,10 +4,6 @@
 
 # Introduction: Home Credit Default Risk
 
-This notebook is intended for those who are new to machine learning competitions or want a gentle introduction to the problem. I purposely
-avoid jumping into complicated models or joining together lots of data in order to show the basics of how to get started in machine 
-learning! Any comments or suggestions are much appreciated.
-
 In this notebook, we will take an initial look at the Home Credit default risk machine learning competition currently hosted on Kaggle. The
 objective of this competition is to use historical loan application data to predict whether or not an applicant will be able to repay a
 loan. This is a standard supervised classification task:
@@ -38,4 +34,3 @@ This diagram shows how all of the data is related:
 
 Moreover, we are provided with the definitions of all the columns (in `HomeCredit_columns_description.csv`) and an example of the expected submission file. 
 
-In this notebook, we will stick to using only the main application training and testing data. Although if we want to have any hope of seriously competing, we need to use all the data, for now we will stick to one file which should be more manageable. This will let us establish a baseline that we can then improve upon. With these projects, it's best to build up an understanding of the problem a little at a time rather than diving all the way in and getting completely lost! 
